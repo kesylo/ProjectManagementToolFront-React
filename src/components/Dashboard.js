@@ -8,41 +8,39 @@ class Dashboard extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
-                            <h1 className="display-4 text-center">Projects</h1>
+                            <h1 className="display-4 text-center font-weight-bold">Manage your projects wisely</h1>
                             <br/>
-                            <a href="ProjectForm.html" className="btn btn-info pull-right">
+                            <a href="ProjectForm.html" className="btn btn-info">
                                 Create a Project
                             </a>
                             <br/>
-                            <hr/>
+                            <hr className="bg-white"/>
 
-                            <div className="container">
-                                <div className="card card-body bg-light mb-3">
-                                    <div className="row">
+                            <div className="container" >
+                                <div className="card card-body mb-3" style={{background:"#1C272B"}}>
+                                    <div className="row" >
                                         <div className="col-2">
                                             <span className="mx-auto">REACT</span>
                                         </div>
-                                        <div className="col-lg-6 col-md-4 col-8">
+                                        <div className="col-lg-7 col-md-4 col-8">
                                             <h3>Spring / React Project</h3>
                                             <p>Project to create a Kanban Board with Spring Boot and React</p>
                                         </div>
-                                        <div className="col-md-4 d-none d-lg-block">
+                                        <div className="col-md-3 d-none d-lg-block">
                                             <ul className="list-group">
-                                                <a href="#">
-                                                    <li className="list-group-item board">
-                                                        <i className="fa fa-flag-checkered pr-1">Project Board </i>
-                                                    </li>
+
+                                                <a href="ProjectForm.html" className="btn btn-outline-info mb-2">
+                                                    Project Board
                                                 </a>
-                                                <a href="#">
-                                                    <li className="list-group-item update">
-                                                        <i className="fa fa-edit pr-1 go">Update Project Info</i>
-                                                    </li>
+
+                                                <a href="ProjectForm.html" className="btn btn-outline-info mb-2">
+                                                    Update Project Info
                                                 </a>
-                                                <a href="">
-                                                    <li className="list-group-item delete">
-                                                        <i className="fa fa-minus-circle pr-1">Delete Project</i>
-                                                    </li>
+
+                                                <a href="ProjectForm.html" className="btn btn-outline-info">
+                                                    Delete Project
                                                 </a>
+
                                             </ul>
                                         </div>
                                     </div>

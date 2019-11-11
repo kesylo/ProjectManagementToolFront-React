@@ -1,30 +1,44 @@
+* {
+  font-family: Roboto, sans-serif;
+}
+
+html, body, #root, #root>div {
+  height: 100%;
+  background-color: #27363B;
+  color: white;
+}
+
+.btn.btn-outline-info {
+  border: 1px solid #FF6C37;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-link:hover { color: #FF6C37 !important; }
+
+.btn.btn-outline-info:hover {
+  background-color: #FF6C37;
+  border: 1px solid #FF6C37;
+}
+
+.btn-info, .btn-info:hover, .btn-info:active, .btn-info:visited, .btn-info:focus {
+  background-color: #FF6C37 !important;
+  outline: none;
+  border-color: #ff7d33;
+}
+
 img {
   width: 100%;
 }
 
 .navbar {
-  background-color: #e3f2fd;
+  background-color: #1C272B;
 }
-.fa.fa-edit {
+
+/*.fa.fa-edit {
   color: #18a2b9;
-}
+}*/
 
-.list-group-item.delete:hover {
-  background-color: pink;
-}
-
-.list-group-item.update:hover {
-  background-color: gainsboro;
-}
-
-.list-group-item.board:hover {
-  background-color: gainsboro;
-
-}
-
-.fa.fa-minus-circle {
-  color: red;
-}
 
 .landing {
   position: relative;
@@ -51,6 +65,7 @@ img {
 
 .card-form {
   opacity: 0.9;
+  border-radius: 25px;
 }
 
 .latest-profiles-img {
@@ -59,5 +74,5 @@ img {
 }
 
 .form-control::placeholder {
-  color: #bbb !important;
+  color: #b834bb !important;
 }

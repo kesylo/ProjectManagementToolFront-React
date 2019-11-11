@@ -4,10 +4,10 @@ class NavBar extends Component {
     render() {
         return (
 
-            <nav className="navbar navbar-expand-sm navbar-dark bg-primary mb-4">
+            <nav className="navbar navbar-expand-sm navbar-dark mb-4" style={{background: "#1C272B", height:"82px"}}>
                 <div className="container">
                     <a className="navbar-brand" href="Dashboard.html">
-                        Student Project Management Tool
+                        SPM Tool
                     </a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-nav">
                         <span className="navbar-toggler-icon"/>
@@ -28,8 +28,11 @@ class NavBar extends Component {
                                     Sign Up
                                 </a>
                             </li>
+
+
+
                             <li className="nav-item">
-                                <a className="nav-link" href="login.html">
+                                <a href="ProjectForm.html" className="btn btn-info ml-3" style={{background:"#FF6C37"}}>
                                     Login
                                 </a>
                             </li>
