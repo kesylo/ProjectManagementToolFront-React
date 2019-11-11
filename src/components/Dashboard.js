@@ -10,9 +10,7 @@ class Dashboard extends Component {
                         <div className="col-md-12">
                             <h1 className="display-4 text-center font-weight-bold">Manage your projects wisely</h1>
                             <br/>
-                            <a href="ProjectForm.html" className="btn btn-info">
-                                Create a Project
-                            </a>
+                                <button className="button-glow-outline">Add project</button>
                             <br/>
                             <hr className="bg-white"/>
 
@@ -23,7 +21,7 @@ class Dashboard extends Component {
                                             <span className="mx-auto">REACT</span>
                                         </div>
                                         <div className="col-lg-7 col-md-4 col-8">
-                                            <h3>Spring / React Project</h3>
+                                            <h3 className="project-title">Spring / React Project</h3>
                                             <p>Project to create a Kanban Board with Spring Boot and React</p>
                                         </div>
                                         <div className="col-md-3 d-none d-lg-block">

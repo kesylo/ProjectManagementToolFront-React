@@ -1,13 +1,17 @@
 import React, {Component} from 'react';
+import Logo from "../../ressources/images/logo.png";
 
 class NavBar extends Component {
     render() {
         return (
 
-            <nav className="navbar navbar-expand-sm navbar-dark mb-4" style={{background: "#1C272B", height:"82px"}}>
-                <div className="container">
+            <div>
+
+
+                <nav className="navbar navbar-expand-sm navbar-dark mb-4" style={{background: "#1C272B", height:"82px"}}>
                     <a className="navbar-brand" href="Dashboard.html">
-                        SPM Tool
+                        <img src={Logo} style={{width:"100%"}} className="mr-3"/>
+
                     </a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-nav">
                         <span className="navbar-toggler-icon"/>
@@ -29,17 +33,13 @@ class NavBar extends Component {
                                 </a>
                             </li>
 
-
-
                             <li className="nav-item">
-                                <a href="ProjectForm.html" className="btn btn-info ml-3" style={{background:"#FF6C37"}}>
-                                    Login
-                                </a>
+                                <button className="button-glow ml-3">Login</button>
                             </li>
                         </ul>
                     </div>
-                </div>
-            </nav>
+                </nav>
+            </div>
 
         );
     }

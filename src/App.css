@@ -2,43 +2,29 @@
   font-family: Roboto, sans-serif;
 }
 
+.nav-link:hover { color: #FF6C37 !important; }
+
 html, body, #root, #root>div {
   height: 100%;
   background-color: #27363B;
   color: white;
 }
 
-.btn.btn-outline-info {
-  border: 1px solid #FF6C37;
-  color: white;
-  cursor: pointer;
-}
-
-.nav-link:hover { color: #FF6C37 !important; }
-
-.btn.btn-outline-info:hover {
-  background-color: #FF6C37;
-  border: 1px solid #FF6C37;
-}
-
-.btn-info, .btn-info:hover, .btn-info:active, .btn-info:visited, .btn-info:focus {
-  background-color: #FF6C37 !important;
-  outline: none;
-  border-color: #ff7d33;
+.project-title{
+  color: #FF6C37;
 }
 
 img {
   width: 100%;
 }
 
+.navbar-brand {
+  width: 100px;
+}
+
 .navbar {
   background-color: #1C272B;
 }
-
-/*.fa.fa-edit {
-  color: #18a2b9;
-}*/
-
 
 .landing {
   position: relative;
@@ -73,6 +59,76 @@ img {
   height: 40px;
 }
 
-.form-control::placeholder {
-  color: #b834bb !important;
+/* Custom Btn */
+
+/*region btn outline*/
+.btn.btn-outline-info {
+  border: 1px solid #FF6C37;
+  color: white;
+  cursor: pointer;
 }
+
+.btn.btn-outline-info:hover {
+  background-color: #FF6C37;
+  border: 1px solid #FF6C37;
+}
+
+.btn.btn-outline-info:focus, .btn.btn-outline-info:active{
+  background-color: #FF6C37 !important;
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: #FF6C37 !important;
+}
+/*endregion*/
+
+/*region glow outline*/
+.button-glow {
+  width: auto;
+  height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  background-color: transparent;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #FF6C37;
+  border-radius: 3px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.button-glow:hover {
+  background-color: #FF6C37;
+  box-shadow: 0px 15px 10px rgba(229, 71, 1, 0.4);
+  color: #fff;
+  transform: translateY(-5px);
+}
+/*endregion*/
+
+/*region glow*/
+.button-glow-outline {
+  width: auto;
+  height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  background-color: #FF6C37;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #FF6C37;
+  border-radius: 3px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.button-glow-outline:hover {
+  background-color: #FF6C37;
+  box-shadow: 0px 15px 10px rgba(229, 71, 1, 0.4);
+  color: #fff;
+  transform: translateY(-5px);
+}
+/*endregion*/
