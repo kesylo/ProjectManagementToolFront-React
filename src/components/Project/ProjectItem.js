@@ -3,21 +3,36 @@ import React, {Component} from 'react';
 class ProjectItem extends Component {
     render() {
         return (
-            <div className="alert alert-primary">
-                <h1>Project Item</h1>
+            <div className="container" >
+                <div className="card card-body mb-3 shadow p-3 bg-black rounded" style={{background:"#1C272B"}}>
+                    <div className="row" >
+                        <div className="col-2">
+                            <span className="mx-auto">REACT</span>
+                        </div>
+                        <div className="col-lg-7 col-md-4 col-8">
+                            <h3 className="project-title">Spring / React Project</h3>
+                            <p>Project to create a Kanban Board with Spring Boot and React</p>
+                        </div>
+                        <div className="col-md-3 d-none d-lg-block">
+                            <ul className="list-group">
 
-                <button type="button" className="btn btn-fill-primary">Primary</button>
-                <button type="button" className="btn btn-secondary">Secondary</button>
-                <button type="button" className="btn btn-success">Success</button>
-                <button type="button" className="btn btn-danger">Danger</button>
-                <button type="button" className="btn btn-warning">Warning</button>
-                <button type="button" className="btn btn-info">Info</button>
-                <button type="button" className="btn btn-light">Light</button>
-                <button type="button" className="btn btn-dark">Dark</button>
+                                <a href="ProjectForm.html" className="btn btn-outline-info mb-2">
+                                    Project Board
+                                </a>
 
-                <button type="button" className="btn btn-link">Link</button>
+                                <a href="ProjectForm.html" className="btn btn-outline-info mb-2">
+                                    Update Project Info
+                                </a>
+
+                                <a href="ProjectForm.html" className="btn btn-outline-info">
+                                    Delete Project
+                                </a>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-
 
         );
     }
