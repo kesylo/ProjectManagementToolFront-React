@@ -8,10 +8,9 @@ class NavBar extends Component {
             <div>
 
 
-                <nav className="navbar navbar-expand-sm navbar-dark mb-4 shadow-lg bg-dark" style={{background: "#1C272B", height:"82px"}}>
+                <nav className="navbar navbar-expand-sm navbar-dark mb-4 shadow-lg bg-dark" style={{height:"72px"}}>
                     <a className="navbar-brand" href="Dashboard.html">
                         <img src={Logo} style={{width:"100%"}} className="mr-3"/>
-
                     </a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-nav">
                         <span className="navbar-toggler-icon"/>

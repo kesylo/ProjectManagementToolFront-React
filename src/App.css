@@ -6,7 +6,7 @@
 
 html, body, #root, #root>div {
   height: 100%;
-  background-color: #27363B;
+  background-color: #343a40;
   color: white;
 }
 
@@ -20,10 +20,6 @@ img {
 
 .navbar-brand {
   width: 100px;
-}
-
-.navbar {
-  background-color: #1C272B;
 }
 
 .landing {

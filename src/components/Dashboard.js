@@ -11,7 +11,10 @@ class Dashboard extends Component {
 
                             <h1 className="display-4 font-weight-bold text-center">Manage your projects</h1>
                             <br/>
-                                <button className="button-glow-outline">Add project</button>
+                                <button className="button-glow-outline">
+                                    Add project
+                                    <i className="fa fa-plus ml-2"/>
+                                </button>
                             <br/>
                             <hr className="bg-white"/>
 
