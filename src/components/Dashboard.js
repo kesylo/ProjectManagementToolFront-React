@@ -8,14 +8,15 @@ class Dashboard extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
-                            <h1 className="display-4 text-center font-weight-bold">Manage your projects wisely</h1>
+
+                            <h1 className="display-4 font-weight-bold text-center">Manage your projects</h1>
                             <br/>
                                 <button className="button-glow-outline">Add project</button>
                             <br/>
                             <hr className="bg-white"/>
 
                             <div className="container" >
-                                <div className="card card-body mb-3" style={{background:"#1C272B"}}>
+                                <div className="card card-body mb-3 shadow p-3 bg-black rounded" style={{background:"#1C272B"}}>
                                     <div className="row" >
                                         <div className="col-2">
                                             <span className="mx-auto">REACT</span>

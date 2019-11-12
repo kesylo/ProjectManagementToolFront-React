@@ -8,7 +8,7 @@ class NavBar extends Component {
             <div>
 
 
-                <nav className="navbar navbar-expand-sm navbar-dark mb-4" style={{background: "#1C272B", height:"82px"}}>
+                <nav className="navbar navbar-expand-sm navbar-dark mb-4 shadow-lg bg-dark" style={{background: "#1C272B", height:"82px"}}>
                     <a className="navbar-brand" href="Dashboard.html">
                         <img src={Logo} style={{width:"100%"}} className="mr-3"/>
 
