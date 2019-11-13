@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86cfc1e8-7177-4b68-849a-d4f9e6e8e85d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/kemin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Project/AddProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Project/AddProject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/projectActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/projectActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/errorReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/errorReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/projectReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/projectReducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -142,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573605079577</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Updated depreciated method">
+      <created>1573605580874</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1573605580874</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +182,7 @@
     <MESSAGE value="finished first API call with axios and we can create a project" />
     <MESSAGE value="can retrieve errors from server" />
     <MESSAGE value="Managed errors on add project form" />
-    <option name="LAST_COMMIT_MESSAGE" value="Managed errors on add project form" />
+    <MESSAGE value="Updated depreciated method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated depreciated method" />
   </component>
 </project>

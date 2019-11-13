@@ -6,5 +6,12 @@ const initialState = {
 };
 
 export default function (state = initialState, action) {
-
+    if (action.type === GET_PROJECTS) {
+        return {
+            ...state,
+            projects: action.payload
+        };
+    } else {
+        return state;
+    }
 }
