@@ -12,13 +12,22 @@ class AddProject extends Component {
             projectName: "",
             description: "",
             startDate: "",
-            endDate: ""
+            endDate: "",
+            errors: {}
         };
 
         /* bind onChange method to all fields with a value tag. All methods created must be bind*/
         this.onChange = this.onChange.bind(this);
         this.onSubmit = this.onSubmit.bind(this);
     }
+
+    /* Life cycle hook */
+    componentWillReceiveProps(nextProps) {
+        if (nextProps.errors){
+            this.setState({errors: nextProps.errors});
+        }
+    }
+
     /* Set a new state to the fields */
     onChange(e) {
         this.setState(
@@ -44,13 +53,14 @@ class AddProject extends Component {
     }
 
     render() {
+        const {errors} = this.state;
         /* All the 'name' attributes in every html field should match the ones on the API model class*/
         return (
             <div className="project">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-8 m-auto">
-                            <h5 className="display-4 text-center">Create / Edit Project form</h5>
+                        <div className="col-md-5 m-auto">
+                            <h1 className="display-4 font-weight-bold text-center">Create a project</h1>
                             <hr/>
                             <form onSubmit={this.onSubmit}>
 
@@ -114,7 +124,13 @@ class AddProject extends Component {
 }
 
 AddProject.propTypes = {
-    createProject : PropTypes.func.isRequired
-}
+    createProject : PropTypes.func.isRequired,
+    errors: PropTypes.object.isRequired
+};
 
-export default connect(null, {createProject}) (AddProject);
+const  mapStateToProps = state => ({
+    /* get errors sent from the server and map them to our prop */
+    errors: state.errors
+});
+
+export default connect(mapStateToProps, {createProject}) (AddProject);
