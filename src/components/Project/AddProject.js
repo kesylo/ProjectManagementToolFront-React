@@ -23,9 +23,11 @@ class AddProject extends Component {
     }
 
     /* Life cycle hook */
-    componentWillReceiveProps(nextProps) {
-        if (nextProps.errors){
-            this.setState({errors: nextProps.errors});
+    static getDerivedStateFromProps(props){
+        if (props != null){
+            return {
+                errors: props.errors
+            }
         }
     }
 
