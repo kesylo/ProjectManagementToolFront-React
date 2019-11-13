@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from "react-router-dom";
 
 class ProjectItem extends Component {
     render() {
@@ -18,15 +19,16 @@ class ProjectItem extends Component {
                         <div className="col-md-3 d-none d-lg-block">
                             <ul className="list-group">
 
-                                <a href="ProjectForm.html" className="btn btn-outline-info mb-2">
+                                <a href="" className="btn btn-outline-info mb-2">
                                     Project Board
                                 </a>
 
-                                <a href="ProjectForm.html" className="btn btn-outline-info mb-2">
+                                {/* pass id to route */}
+                                <Link to={`/updateProject/${project.projectIdentifier}`} className="btn btn-outline-info mb-2">
                                     Update Project Info
-                                </a>
+                                </Link>
 
-                                <a href="ProjectForm.html" className="btn btn-outline-info">
+                                <a href="" className="btn btn-outline-info">
                                     Delete Project
                                 </a>
 
