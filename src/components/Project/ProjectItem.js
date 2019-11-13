@@ -2,16 +2,18 @@ import React, {Component} from 'react';
 
 class ProjectItem extends Component {
     render() {
+        /* Extract data from parent component: dashboard */
+        const {project} = this.props;
         return (
             <div className="container" >
                 <div className="card card-body mb-3 shadow p-3 bg-black rounded" style={{background:"#1C272B"}}>
                     <div className="row" >
                         <div className="col-2">
-                            <span className="mx-auto">REACT</span>
+                            <span className="mx-auto">{project.projectIdentifier}</span>
                         </div>
                         <div className="col-lg-7 col-md-4 col-8">
-                            <h3 className="project-title">Spring / React Project</h3>
-                            <p>Project to create a Kanban Board with Spring Boot and React</p>
+                            <h3 className="project-title">{project.projectName}</h3>
+                            <p>{project.description}</p>
                         </div>
                         <div className="col-md-3 d-none d-lg-block">
                             <ul className="list-group">
