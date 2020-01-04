@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86cfc1e8-7177-4b68-849a-d4f9e6e8e85d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Project/UpdateProject.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Project/ProjectItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Project/ProjectItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/projectActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/projectActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Project/AddProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Project/AddProject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Project/UpdateProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Project/UpdateProject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/projectReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/projectReducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +36,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -77,7 +84,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1b62c968-706e-43fd-a427-3efab22f561d" name="Default Changelist" comment="" />
+      <changelist id="86cfc1e8-7177-4b68-849a-d4f9e6e8e85d" name="Default Changelist" comment="" />
       <created>1573262709788</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -87,6 +94,10 @@
       <workItem from="1573263981913" duration="107000" />
       <workItem from="1573264104613" duration="1596000" />
       <workItem from="1573355683584" duration="10130000" />
+      <workItem from="1573939659228" duration="5260000" />
+      <workItem from="1575242945101" duration="82000" />
+      <workItem from="1576865358278" duration="160000" />
+      <workItem from="1578172655494" duration="2203000" />
     </task>
     <task id="LOCAL-00001" summary="Added 3 components:&#10;- navbar&#10;- dashboard&#10;- projectItem">
       <created>1573264932808</created>
@@ -165,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573608937573</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Created update form and passed id to url">
+      <created>1573610276106</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1573610276106</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +214,7 @@
     <MESSAGE value="Updated depreciated method" />
     <MESSAGE value="added GET ALL PROJECTS from server" />
     <MESSAGE value="added GET ALL PROJECTS on Dashboard UI" />
-    <option name="LAST_COMMIT_MESSAGE" value="added GET ALL PROJECTS on Dashboard UI" />
+    <MESSAGE value="Created update form and passed id to url" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created update form and passed id to url" />
   </component>
 </project>

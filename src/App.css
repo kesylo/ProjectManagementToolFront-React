@@ -8,6 +8,7 @@ html, body, #root, #root>div {
   height: 100%;
   background-color: #343a40;
   color: white;
+  /*user-select: none;*/
 }
 
 .project-title{
@@ -128,4 +129,11 @@ img {
   transform: translateY(-5px);
 }
 /*endregion*/
+
+/* Text slide */
+
+/*region Text Slide */
+
+/*endregion*/
+
 

@@ -20,6 +20,10 @@ class Dashboard extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
+
+
+
+
                             <h1 className="display-4 font-weight-bold text-center">Manage your projects</h1>
                             <br/>
                                 {/*Add button component*/}

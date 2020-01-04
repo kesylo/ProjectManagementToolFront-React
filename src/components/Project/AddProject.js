@@ -120,6 +120,7 @@ class AddProject extends Component {
                                            name="startDate"
                                            value={this.state.startDate}
                                            onChange={this.onChange}
+                                           required
                                     />
                                     {errors.startDate && (
                                         <div className="invalid-feedback">
@@ -135,6 +136,7 @@ class AddProject extends Component {
                                            name="endDate"
                                            value={this.state.endDate}
                                            onChange={this.onChange}
+                                           required
                                     />
                                     {errors.endDate && (
                                         <div className="invalid-feedback">
