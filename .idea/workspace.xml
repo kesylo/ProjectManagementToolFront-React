@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="86cfc1e8-7177-4b68-849a-d4f9e6e8e85d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/actions/projectActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/projectActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Project/AddProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Project/AddProject.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Project/UpdateProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Project/UpdateProject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Project/ProjectItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Project/ProjectItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reducers/projectReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/projectReducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -97,7 +94,7 @@
       <workItem from="1573939659228" duration="5260000" />
       <workItem from="1575242945101" duration="82000" />
       <workItem from="1576865358278" duration="160000" />
-      <workItem from="1578172655494" duration="2203000" />
+      <workItem from="1578172655494" duration="4111000" />
     </task>
     <task id="LOCAL-00001" summary="Added 3 components:&#10;- navbar&#10;- dashboard&#10;- projectItem">
       <created>1573264932808</created>
@@ -183,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573610276106</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fixed update project bug">
+      <created>1578174915783</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1578174915783</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +219,7 @@
     <MESSAGE value="added GET ALL PROJECTS from server" />
     <MESSAGE value="added GET ALL PROJECTS on Dashboard UI" />
     <MESSAGE value="Created update form and passed id to url" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created update form and passed id to url" />
+    <MESSAGE value="fixed update project bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed update project bug" />
   </component>
 </project>
