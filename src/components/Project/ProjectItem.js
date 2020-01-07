@@ -26,16 +26,19 @@ class ProjectItem extends Component {
                         <div className="col-md-3 d-none d-lg-block">
                             <ul className="list-group">
 
-                                <a href="" className="btn btn-outline-info mb-2">
+                                <Link to={`/projectBoard/${project.projectIdentifier}`}
+                                      className="btn btn-outline-info mb-2">
                                     Project Board
-                                </a>
+                                </Link>
 
                                 {/* pass id to route */}
-                                <Link to={`/updateProject/${project.projectIdentifier}`} className="btn btn-outline-info mb-2">
+                                <Link to={`/updateProject/${project.projectIdentifier}`}
+                                      className="btn btn-outline-info mb-2">
                                     Update Project Info
                                 </Link>
 
-                                <a href="" className="btn btn-outline-info" onClick={this.onDeleteClick.bind(this, project.projectIdentifier)}>
+                                <a href="" className="btn btn-outline-info"
+                                   onClick={this.onDeleteClick.bind(this, project.projectIdentifier)}>
                                     Delete Project
                                 </a>
 

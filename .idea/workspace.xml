@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86cfc1e8-7177-4b68-849a-d4f9e6e8e85d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/reducers/backlogReducer.js" afterDir="false" />
+    <list default="true" id="86cfc1e8-7177-4b68-849a-d4f9e6e8e85d" name="Default Changelist" comment="get backlog and display depending on their statuses">
+      <change afterPath="$PROJECT_DIR$/src/components/ProjectBoard/ProjectBoard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Project/ProjectItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Project/ProjectItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectBoard/Backlog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectBoard/Backlog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectBoard/ProjectTasks/AddProjectTask.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectBoard/ProjectTasks/AddProjectTask.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectBoard/ProjectTasks/ProjectBoard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/backlogActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectBoard/ProjectTasks/ProjectTask.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectBoard/ProjectTasks/ProjectTask.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/backlogReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/backlogReducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,11 +44,13 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\kemin\Documents\Perso\Projets\Java\Spring\projectmanagementtool-react\src\components\ProjectBoard" />
       <recent name="C:\Users\Kesylo\Documents\Perso\Projets\WebStorm\ProjectManagementToolFront-React\public\images" />
       <recent name="C:\Users\kemin\WebstormProjects\projectmanagementtool-react\src\components" />
     </key>
@@ -94,7 +101,7 @@
       <workItem from="1575242945101" duration="82000" />
       <workItem from="1576865358278" duration="160000" />
       <workItem from="1578172655494" duration="4725000" />
-      <workItem from="1578400571535" duration="900000" />
+      <workItem from="1578400571535" duration="11917000" />
     </task>
     <task id="LOCAL-00001" summary="Added 3 components:&#10;- navbar&#10;- dashboard&#10;- projectItem">
       <created>1573264932808</created>
@@ -194,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578176782642</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added projectTask folders">
+      <created>1578401681809</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1578401681809</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +242,7 @@
     <MESSAGE value="Created update form and passed id to url" />
     <MESSAGE value="fixed update project bug" />
     <MESSAGE value="delete project OK" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete project OK" />
+    <MESSAGE value="Added projectTask folders" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added projectTask folders" />
   </component>
 </project>

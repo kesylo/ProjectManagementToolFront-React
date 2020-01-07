@@ -3,10 +3,10 @@ import {GET_BACKLOG, GET_PROJECT_TASK, DELETE_PROJECT_TASK} from "../actions/typ
 const initialState = {
     project_tasks: [],
     project_task: {},
-}
+};
 
 export default function (state = initialState, action) {
-    switch (action.type()) {
+    switch (action.type) {
 
         case GET_BACKLOG:
             return {
@@ -24,7 +24,6 @@ export default function (state = initialState, action) {
             return {
                 ...state
             };
-
 
         default:
             return state;
