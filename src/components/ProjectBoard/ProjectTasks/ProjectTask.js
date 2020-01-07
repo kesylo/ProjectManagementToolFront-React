@@ -1,22 +1,30 @@
 import React, {Component} from 'react';
 import {Link} from "react-router-dom";
+import {connect} from 'react-redux';
+import PropTypes from "prop-types";
+import {deleteProjectTask} from "../../../actions/backlogActions";
 
 class ProjectTask extends Component {
+
+    onDeleteClick(backlog_id, pt_id){
+        this.props.deleteProjectTask(backlog_id, pt_id);
+    }
+
     render() {
         const { project_task } = this.props;
         let priorityString;
         let priorityClass;
 
         if (project_task.priority === 1){
-            priorityClass = "text-danger"
+            priorityClass = "text-danger";
             priorityString = "HIGH"
         }
         if (project_task.priority === 2){
-            priorityClass = "text-warning"
+            priorityClass = "text-warning";
             priorityString = "MEDIUM"
         }
         if (project_task.priority === 3){
-            priorityClass = "text-info"
+            priorityClass = "text-info";
             priorityString = "LOW"
         }
 
@@ -37,7 +45,8 @@ class ProjectTask extends Component {
                         View / Update
                     </Link>
 
-                    <button className="btn btn-danger ml-4">
+                    <button className="btn btn-danger ml-4"
+                            onClick={this.onDeleteClick.bind(this, project_task.projectIdentifier, project_task.projectSequence)}>
                         Delete
                     </button>
                 </div>
@@ -46,4 +55,8 @@ class ProjectTask extends Component {
     }
 }
 
-export default ProjectTask;
+ProjectTask.propTypes = {
+    deleteProjectTask: PropTypes.func.isRequired
+};
+
+export default connect(null, {deleteProjectTask})(ProjectTask);
