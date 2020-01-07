@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="86cfc1e8-7177-4b68-849a-d4f9e6e8e85d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/actions/backlogActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/backlogActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectBoard/ProjectBoard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectBoard/ProjectBoard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectBoard/ProjectTasks/ProjectTask.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectBoard/ProjectTasks/ProjectTask.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectBoard/ProjectTasks/UpdateProjectTask.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectBoard/ProjectTasks/UpdateProjectTask.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +97,7 @@
       <workItem from="1575242945101" duration="82000" />
       <workItem from="1576865358278" duration="160000" />
       <workItem from="1578172655494" duration="4725000" />
-      <workItem from="1578400571535" duration="14925000" />
+      <workItem from="1578400571535" duration="21108000" />
     </task>
     <task id="LOCAL-00001" summary="Added 3 components:&#10;- navbar&#10;- dashboard&#10;- projectItem">
       <created>1573264932808</created>
@@ -209,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578412609551</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="blocking direct route to invalid project id">
+      <created>1578425965697</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1578425965697</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +254,7 @@
     <MESSAGE value="delete project OK" />
     <MESSAGE value="Added projectTask folders" />
     <MESSAGE value="get backlog and display depending on their statuses" />
-    <option name="LAST_COMMIT_MESSAGE" value="get backlog and display depending on their statuses" />
+    <MESSAGE value="blocking direct route to invalid project id" />
+    <option name="LAST_COMMIT_MESSAGE" value="blocking direct route to invalid project id" />
   </component>
 </project>
