@@ -2,10 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86cfc1e8-7177-4b68-849a-d4f9e6e8e85d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/actions/securityActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/securityReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/backlogActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/backlogActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/projectActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/projectActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/securityActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/securityActions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Landing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/NavBar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Project/AddProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Project/AddProject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Project/CreateProjectButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Project/CreateProjectButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Project/ProjectItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Project/ProjectItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Project/UpdateProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Project/UpdateProject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectBoard/Backlog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectBoard/Backlog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectBoard/ProjectBoard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectBoard/ProjectBoard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectBoard/ProjectTasks/AddProjectTask.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectBoard/ProjectTasks/AddProjectTask.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectBoard/ProjectTasks/ProjectTask.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectBoard/ProjectTasks/ProjectTask.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectBoard/ProjectTasks/UpdateProjectTask.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectBoard/ProjectTasks/UpdateProjectTask.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UserManagement/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserManagement/Login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UserManagement/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserManagement/Register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/backlogReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/backlogReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/errorReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/errorReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/projectReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/projectReducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,6 +122,7 @@
       <workItem from="1576865358278" duration="160000" />
       <workItem from="1578172655494" duration="4725000" />
       <workItem from="1578400571535" duration="23019000" />
+      <workItem from="1578460649084" duration="87000" />
     </task>
     <task id="LOCAL-00001" summary="Added 3 components:&#10;- navbar&#10;- dashboard&#10;- projectItem">
       <created>1573264932808</created>
@@ -239,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578452580520</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="register ok">
+      <created>1578454531840</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1578454531840</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,6 +310,7 @@
     <MESSAGE value="blocking direct route to invalid project id" />
     <MESSAGE value="update project task Done" />
     <MESSAGE value="added login and register pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="added login and register pages" />
+    <MESSAGE value="register ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="register ok" />
   </component>
 </project>
