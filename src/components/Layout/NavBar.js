@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Logo from "../../ressources/images/logo.png";
+import {Link} from "react-router-dom";
 
 class NavBar extends Component {
     render() {
@@ -9,31 +10,39 @@ class NavBar extends Component {
 
 
                 <nav className="navbar navbar-expand-sm navbar-dark mb-4 shadow-lg bg-dark" style={{height:"72px"}}>
-                    <a className="navbar-brand" href="Dashboard.html">
+
+                    <Link to={"/"} className="navbar-brand">
                         <img src={Logo} style={{width:"100%"}} className="mr-3"/>
-                    </a>
+                    </Link>
+
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-nav">
                         <span className="navbar-toggler-icon"/>
                     </button>
 
                     <div className="collapse navbar-collapse" id="mobile-nav">
                         <ul className="navbar-nav mr-auto">
+
                             <li className="nav-item">
-                                <a className="nav-link" href="/dashboard">
+                                <Link className="nav-link" to="/dashboard">
                                     Dashboard
-                                </a>
+                                </Link>
                             </li>
+
                         </ul>
 
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item">
-                                <a className="nav-link " href="register.html">
+                                <Link className="nav-link " to="/register">
                                     Sign Up
-                                </a>
+                                </Link>
                             </li>
 
                             <li className="nav-item">
-                                <button className="button-glow ml-3">Login</button>
+                                <Link to="/login">
+                                    <button className="button-glow ml-3">
+                                        Login
+                                    </button>
+                                </Link>
                             </li>
                         </ul>
                     </div>
