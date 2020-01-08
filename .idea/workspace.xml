@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86cfc1e8-7177-4b68-849a-d4f9e6e8e85d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/Landing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UserManagement/Login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UserManagement/Register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/securityActions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/NavBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UserManagement/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserManagement/Register.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -234,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578436719078</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="added login and register pages">
+      <created>1578452580520</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1578452580520</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,6 +277,7 @@
     <MESSAGE value="get backlog and display depending on their statuses" />
     <MESSAGE value="blocking direct route to invalid project id" />
     <MESSAGE value="update project task Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="update project task Done" />
+    <MESSAGE value="added login and register pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="added login and register pages" />
   </component>
 </project>
